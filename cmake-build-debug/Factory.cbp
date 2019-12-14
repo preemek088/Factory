@@ -83,6 +83,21 @@
 		<Unit filename="C:/Users/Filip Olszowski/Desktop/Kody/Informatyka II/Factory/main.cpp">
 			<Option target="Factory"/>
 		</Unit>
+		<Unit filename="C:/Users/Filip Olszowski/Desktop/Kody/Informatyka II/Factory/package.cpp">
+			<Option target="Factory"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip Olszowski/Desktop/Kody/Informatyka II/Factory/package.hpp">
+			<Option target="Factory"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip Olszowski/Desktop/Kody/Informatyka II/Factory/storage_types.cpp">
+			<Option target="Factory"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip Olszowski/Desktop/Kody/Informatyka II/Factory/storage_types.hpp">
+			<Option target="Factory"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip Olszowski/Desktop/Kody/Informatyka II/Factory/types.hpp">
+			<Option target="Factory"/>
+		</Unit>
 		<Unit filename="C:/Users/Filip Olszowski/Desktop/Kody/Informatyka II/Factory/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

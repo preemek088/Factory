@@ -3,4 +3,4 @@ project(Factory)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Factory main.cpp)
+add_executable(Factory main.cpp types.hpp package.hpp storage_types.hpp package.cpp storage_types.cpp)

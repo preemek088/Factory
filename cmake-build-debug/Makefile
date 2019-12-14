@@ -149,6 +149,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\Factory.dir\build.make CMakeFiles/Factory.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+package.obj: package.cpp.obj
+
+.PHONY : package.obj
+
+# target to build an object file
+package.cpp.obj:
+	$(MAKE) -f CMakeFiles\Factory.dir\build.make CMakeFiles/Factory.dir/package.cpp.obj
+.PHONY : package.cpp.obj
+
+package.i: package.cpp.i
+
+.PHONY : package.i
+
+# target to preprocess a source file
+package.cpp.i:
+	$(MAKE) -f CMakeFiles\Factory.dir\build.make CMakeFiles/Factory.dir/package.cpp.i
+.PHONY : package.cpp.i
+
+package.s: package.cpp.s
+
+.PHONY : package.s
+
+# target to generate assembly for a file
+package.cpp.s:
+	$(MAKE) -f CMakeFiles\Factory.dir\build.make CMakeFiles/Factory.dir/package.cpp.s
+.PHONY : package.cpp.s
+
+storage_types.obj: storage_types.cpp.obj
+
+.PHONY : storage_types.obj
+
+# target to build an object file
+storage_types.cpp.obj:
+	$(MAKE) -f CMakeFiles\Factory.dir\build.make CMakeFiles/Factory.dir/storage_types.cpp.obj
+.PHONY : storage_types.cpp.obj
+
+storage_types.i: storage_types.cpp.i
+
+.PHONY : storage_types.i
+
+# target to preprocess a source file
+storage_types.cpp.i:
+	$(MAKE) -f CMakeFiles\Factory.dir\build.make CMakeFiles/Factory.dir/storage_types.cpp.i
+.PHONY : storage_types.cpp.i
+
+storage_types.s: storage_types.cpp.s
+
+.PHONY : storage_types.s
+
+# target to generate assembly for a file
+storage_types.cpp.s:
+	$(MAKE) -f CMakeFiles\Factory.dir\build.make CMakeFiles/Factory.dir/storage_types.cpp.s
+.PHONY : storage_types.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -161,6 +215,12 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... package.obj
+	@echo ... package.i
+	@echo ... package.s
+	@echo ... storage_types.obj
+	@echo ... storage_types.i
+	@echo ... storage_types.s
 .PHONY : help
 
 
