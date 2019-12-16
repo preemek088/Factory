@@ -1,4 +1,5 @@
 #include <iostream>
+#include <deque>
 using elementID = int;
 
 class Package
@@ -24,7 +25,9 @@ enum PackageQueueType
 class IPackageStockPile
 {
     virtual void push(Package&& Package) = 0;
-    virtual bool is_empty() = 0;
+    virtual bool empty() = 0;
+    virtual int size() {};
+
 
 };
 
@@ -32,6 +35,14 @@ class IPackageQueue
 {
     virtual void pop() = 0;
     virtual PackageQueueType get_queue_type() = 0;
+
+};
+
+class PackageQueue: public IPackageQueue
+{
+
+
+
 };
 
 int main() {
