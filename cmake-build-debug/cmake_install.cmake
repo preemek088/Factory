@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Filip Olszowski/Desktop/Kody/Informatyka II/Factory
+# Install script for directory: C:/Users/Kacper/Desktop/Nowy folder (6)
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Filip Olszowski/Desktop/Kody/Informatyka II/Factory/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Kacper/Desktop/Nowy folder (6)/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
