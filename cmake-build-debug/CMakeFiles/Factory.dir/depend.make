@@ -3,3 +3,6 @@
 
 CMakeFiles/Factory.dir/main.cpp.obj: ../main.cpp
 
+CMakeFiles/Factory.dir/package.cpp.obj: ../package.cpp
+CMakeFiles/Factory.dir/package.cpp.obj: ../package.hpp
+

@@ -83,6 +83,12 @@
 		<Unit filename="C:/Users/Kacper/Desktop/Nowy folder (6)/main.cpp">
 			<Option target="Factory"/>
 		</Unit>
+		<Unit filename="C:/Users/Kacper/Desktop/Nowy folder (6)/package.cpp">
+			<Option target="Factory"/>
+		</Unit>
+		<Unit filename="C:/Users/Kacper/Desktop/Nowy folder (6)/package.hpp">
+			<Option target="Factory"/>
+		</Unit>
 		<Unit filename="C:/Users/Kacper/Desktop/Nowy folder (6)/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

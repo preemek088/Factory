@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Factory.dir/main.cpp.obj"
+  "CMakeFiles/Factory.dir/package.cpp.obj"
   "Factory.exe"
   "Factory.exe.manifest"
   "Factory.pdb"

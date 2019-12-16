@@ -149,6 +149,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\Factory.dir\build.make CMakeFiles/Factory.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+package.obj: package.cpp.obj
+
+.PHONY : package.obj
+
+# target to build an object file
+package.cpp.obj:
+	$(MAKE) -f CMakeFiles\Factory.dir\build.make CMakeFiles/Factory.dir/package.cpp.obj
+.PHONY : package.cpp.obj
+
+package.i: package.cpp.i
+
+.PHONY : package.i
+
+# target to preprocess a source file
+package.cpp.i:
+	$(MAKE) -f CMakeFiles\Factory.dir\build.make CMakeFiles/Factory.dir/package.cpp.i
+.PHONY : package.cpp.i
+
+package.s: package.cpp.s
+
+.PHONY : package.s
+
+# target to generate assembly for a file
+package.cpp.s:
+	$(MAKE) -f CMakeFiles\Factory.dir\build.make CMakeFiles/Factory.dir/package.cpp.s
+.PHONY : package.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -161,6 +188,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... package.obj
+	@echo ... package.i
+	@echo ... package.s
 .PHONY : help
 
 
