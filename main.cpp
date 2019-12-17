@@ -5,27 +5,25 @@
 #include <iterator>
 using elementID = int;
 
-static std::set<elementID> assigned_IDs;
-static std::set<elementID> freed_IDs;
 
 class Package
 {
     elementID ID;
+    static std::set<elementID> assigned_IDs;
+    static std::set<elementID> freed_IDs;
 public:
     Package(elementID ID_) //konstruktor
     {
         ID = ID_;
     };
-//    Package(Package&& package_) //konstruktor kopiujacy
-//    {
-//        ID = package_.ID;
-//
-//    };
-//    Package& operator=(Package&& other) {
-//
-//         ID = other.ID;
-//    };
-    ~Package() = default; //destruktor domyslny, tutaj przy zniszczeniu obiektu powinno przekazywac ID produktu do zbioru zwolnionych ID
+    Package(Package&& arg): ID(std::move(arg.ID)) //konstruktor kopiujacy
+    {}
+    Package& operator=(Package&& other)
+    {
+        ID = std::move(other.ID);
+        return *this;
+    };
+    ~Package(); //destruktor domyslny, tutaj przy zniszczeniu obiektu powinno przekazywac ID produktu do zbioru zwolnionych ID
     elementID get_id() const
     {
         return ID;
