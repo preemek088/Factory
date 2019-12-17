@@ -26,7 +26,7 @@ class IPackageStockPile
 {
     virtual void push(Package&& Package) = 0;
     virtual bool empty() = 0;
-    virtual int size() {};
+    virtual std::size_t size() {};
 
 
 };
@@ -40,9 +40,17 @@ class IPackageQueue
 
 class PackageQueue: public IPackageQueue
 {
+    std::deque<Package> queue;
+public:
+    void push(Package&& package) {queue.push_back(package);};
 
+    bool empty() {if (queue.size()>0) return true;};
 
+    std::size_t size() const {return queue.size();};
 
+    // typ FIFO
+    void pop() {queue.pop_front();};
+    PackageQueueType get_queue_type() {return LIFO;};
 };
 
 int main() {
