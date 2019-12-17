@@ -176,33 +176,6 @@ package.cpp.s:
 	$(MAKE) -f CMakeFiles\Factory.dir\build.make CMakeFiles/Factory.dir/package.cpp.s
 .PHONY : package.cpp.s
 
-storage_types.obj: storage_types.cpp.obj
-
-.PHONY : storage_types.obj
-
-# target to build an object file
-storage_types.cpp.obj:
-	$(MAKE) -f CMakeFiles\Factory.dir\build.make CMakeFiles/Factory.dir/storage_types.cpp.obj
-.PHONY : storage_types.cpp.obj
-
-storage_types.i: storage_types.cpp.i
-
-.PHONY : storage_types.i
-
-# target to preprocess a source file
-storage_types.cpp.i:
-	$(MAKE) -f CMakeFiles\Factory.dir\build.make CMakeFiles/Factory.dir/storage_types.cpp.i
-.PHONY : storage_types.cpp.i
-
-storage_types.s: storage_types.cpp.s
-
-.PHONY : storage_types.s
-
-# target to generate assembly for a file
-storage_types.cpp.s:
-	$(MAKE) -f CMakeFiles\Factory.dir\build.make CMakeFiles/Factory.dir/storage_types.cpp.s
-.PHONY : storage_types.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -218,9 +191,6 @@ help:
 	@echo ... package.obj
 	@echo ... package.i
 	@echo ... package.s
-	@echo ... storage_types.obj
-	@echo ... storage_types.i
-	@echo ... storage_types.s
 .PHONY : help
 
 
