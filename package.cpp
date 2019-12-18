@@ -1,12 +1,4 @@
-//
-// Created by Kacper on 16/12/2019.
-//
-
+#include <set>
 #include "package.hpp"
-
-int main2()
-{
-    std::cout<<"ja jebie";
-    return 0;
-
-}
+std::set<elementID> Package::freed_IDs;
+std::set<elementID> Package::assigned_IDs;
