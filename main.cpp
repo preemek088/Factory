@@ -1,13 +1,11 @@
 #include <iostream>
 #include <deque>
-using elementID = int;
 #include "package.hpp"
 #include "storage_types.hpp"
 
+using elementID = int;
 
 int main() {
-
-
 
     Package paczka;
     Package paczka2;

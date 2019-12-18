@@ -14,7 +14,6 @@ class Package
 
 public:
     Package& operator = (Package&&) = default;
-
     Package() {
         elementID x = 1;
         while(true){
@@ -40,14 +39,12 @@ public:
             }
             x++;
         }
-    };
+    }
     ~Package(){
         assigned_IDs.erase(ID);
         freed_IDs.emplace(ID);
     };
-    elementID get_id() const {
-        return ID;
-    }
+    elementID get_id() const;
 
 };
 

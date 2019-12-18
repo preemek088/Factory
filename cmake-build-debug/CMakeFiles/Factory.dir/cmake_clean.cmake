@@ -1,10 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Factory.dir/main.cpp.obj"
-  "CMakeFiles/Factory.dir/package.cpp.obj"
-  "Factory.exe"
-  "Factory.exe.manifest"
+  "CMakeFiles/Factory.dir/main.cpp.o"
+  "CMakeFiles/Factory.dir/package.cpp.o"
+  "CMakeFiles/Factory.dir/storage_types.cpp.o"
+  "Factory"
   "Factory.pdb"
-  "libFactory.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
