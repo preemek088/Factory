@@ -10,5 +10,8 @@ CMakeFiles/Factory.dir/package.cpp.o: ../package.cpp
 CMakeFiles/Factory.dir/package.cpp.o: ../package.hpp
 CMakeFiles/Factory.dir/package.cpp.o: ../types.hpp
 
+CMakeFiles/Factory.dir/storage_types.cpp.o: ../package.hpp
 CMakeFiles/Factory.dir/storage_types.cpp.o: ../storage_types.cpp
+CMakeFiles/Factory.dir/storage_types.cpp.o: ../storage_types.hpp
+CMakeFiles/Factory.dir/storage_types.cpp.o: ../types.hpp
 
