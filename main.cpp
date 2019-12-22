@@ -3,8 +3,6 @@
 #include "package.hpp"
 #include "storage_types.hpp"
 
-using elementID = int;
-
 int main() {
 
     Package paczka;
