@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/Filip Olszowski/Desktop/Kody/Informatyka II/Factory/helpers.cpp" "C:/Users/Filip Olszowski/Desktop/Kody/Informatyka II/Factory/cmake-build-debug/CMakeFiles/Factory.dir/helpers.cpp.obj"
   "C:/Users/Filip Olszowski/Desktop/Kody/Informatyka II/Factory/main.cpp" "C:/Users/Filip Olszowski/Desktop/Kody/Informatyka II/Factory/cmake-build-debug/CMakeFiles/Factory.dir/main.cpp.obj"
+  "C:/Users/Filip Olszowski/Desktop/Kody/Informatyka II/Factory/nodes.cpp" "C:/Users/Filip Olszowski/Desktop/Kody/Informatyka II/Factory/cmake-build-debug/CMakeFiles/Factory.dir/nodes.cpp.obj"
   "C:/Users/Filip Olszowski/Desktop/Kody/Informatyka II/Factory/package.cpp" "C:/Users/Filip Olszowski/Desktop/Kody/Informatyka II/Factory/cmake-build-debug/CMakeFiles/Factory.dir/package.cpp.obj"
   "C:/Users/Filip Olszowski/Desktop/Kody/Informatyka II/Factory/storage_types.cpp" "C:/Users/Filip Olszowski/Desktop/Kody/Informatyka II/Factory/cmake-build-debug/CMakeFiles/Factory.dir/storage_types.cpp.obj"
   )

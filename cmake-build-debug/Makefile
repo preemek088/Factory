@@ -122,6 +122,33 @@ Factory/fast:
 	$(MAKE) -f CMakeFiles\Factory.dir\build.make CMakeFiles/Factory.dir/build
 .PHONY : Factory/fast
 
+helpers.obj: helpers.cpp.obj
+
+.PHONY : helpers.obj
+
+# target to build an object file
+helpers.cpp.obj:
+	$(MAKE) -f CMakeFiles\Factory.dir\build.make CMakeFiles/Factory.dir/helpers.cpp.obj
+.PHONY : helpers.cpp.obj
+
+helpers.i: helpers.cpp.i
+
+.PHONY : helpers.i
+
+# target to preprocess a source file
+helpers.cpp.i:
+	$(MAKE) -f CMakeFiles\Factory.dir\build.make CMakeFiles/Factory.dir/helpers.cpp.i
+.PHONY : helpers.cpp.i
+
+helpers.s: helpers.cpp.s
+
+.PHONY : helpers.s
+
+# target to generate assembly for a file
+helpers.cpp.s:
+	$(MAKE) -f CMakeFiles\Factory.dir\build.make CMakeFiles/Factory.dir/helpers.cpp.s
+.PHONY : helpers.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -148,6 +175,33 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) -f CMakeFiles\Factory.dir\build.make CMakeFiles/Factory.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+nodes.obj: nodes.cpp.obj
+
+.PHONY : nodes.obj
+
+# target to build an object file
+nodes.cpp.obj:
+	$(MAKE) -f CMakeFiles\Factory.dir\build.make CMakeFiles/Factory.dir/nodes.cpp.obj
+.PHONY : nodes.cpp.obj
+
+nodes.i: nodes.cpp.i
+
+.PHONY : nodes.i
+
+# target to preprocess a source file
+nodes.cpp.i:
+	$(MAKE) -f CMakeFiles\Factory.dir\build.make CMakeFiles/Factory.dir/nodes.cpp.i
+.PHONY : nodes.cpp.i
+
+nodes.s: nodes.cpp.s
+
+.PHONY : nodes.s
+
+# target to generate assembly for a file
+nodes.cpp.s:
+	$(MAKE) -f CMakeFiles\Factory.dir\build.make CMakeFiles/Factory.dir/nodes.cpp.s
+.PHONY : nodes.cpp.s
 
 package.obj: package.cpp.obj
 
@@ -212,9 +266,15 @@ help:
 	@echo ... rebuild_cache
 	@echo ... Factory
 	@echo ... edit_cache
+	@echo ... helpers.obj
+	@echo ... helpers.i
+	@echo ... helpers.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... nodes.obj
+	@echo ... nodes.i
+	@echo ... nodes.s
 	@echo ... package.obj
 	@echo ... package.i
 	@echo ... package.s

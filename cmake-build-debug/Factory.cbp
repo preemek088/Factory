@@ -80,7 +80,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Filip Olszowski/Desktop/Kody/Informatyka II/Factory/helpers.cpp">
+			<Option target="Factory"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip Olszowski/Desktop/Kody/Informatyka II/Factory/helpers.hpp">
+			<Option target="Factory"/>
+		</Unit>
 		<Unit filename="C:/Users/Filip Olszowski/Desktop/Kody/Informatyka II/Factory/main.cpp">
+			<Option target="Factory"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip Olszowski/Desktop/Kody/Informatyka II/Factory/nodes.cpp">
+			<Option target="Factory"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip Olszowski/Desktop/Kody/Informatyka II/Factory/nodes.hpp">
 			<Option target="Factory"/>
 		</Unit>
 		<Unit filename="C:/Users/Filip Olszowski/Desktop/Kody/Informatyka II/Factory/package.cpp">

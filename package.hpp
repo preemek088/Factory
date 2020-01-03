@@ -7,6 +7,10 @@
 #include <set>
 #include <stdexcept>
 
+static std::set<ElementID> assigned_ids_{0};
+
+static std::set<ElementID> freed_ids_;
+
 class Package {
 public:
     Package();
@@ -26,9 +30,6 @@ public:
 private:
     static const ElementID BLANK_ID = -1;
 
-    inline static std::set<ElementID> assigned_ids_{0};
-
-    inline static std::set<ElementID> freed_ids_;
 
     ElementID id_ = BLANK_ID;
 };
