@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Kacper\Desktop\Nowy folder (6)"
+CMAKE_SOURCE_DIR = C:\Users\Kacper\Desktop\Factory-Filip\Factory-Filip
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Kacper\Desktop\Nowy folder (6)\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\Kacper\Desktop\Factory-Filip\Factory-Filip\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Kacper\Desktop\Nowy folder (6)\cmake-build-debug\CMakeFiles" "C:\Users\Kacper\Desktop\Nowy folder (6)\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Kacper\Desktop\Factory-Filip\Factory-Filip\cmake-build-debug\CMakeFiles C:\Users\Kacper\Desktop\Factory-Filip\Factory-Filip\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Kacper\Desktop\Nowy folder (6)\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Kacper\Desktop\Factory-Filip\Factory-Filip\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,6 +122,33 @@ Factory/fast:
 	$(MAKE) -f CMakeFiles\Factory.dir\build.make CMakeFiles/Factory.dir/build
 .PHONY : Factory/fast
 
+helpers.obj: helpers.cpp.obj
+
+.PHONY : helpers.obj
+
+# target to build an object file
+helpers.cpp.obj:
+	$(MAKE) -f CMakeFiles\Factory.dir\build.make CMakeFiles/Factory.dir/helpers.cpp.obj
+.PHONY : helpers.cpp.obj
+
+helpers.i: helpers.cpp.i
+
+.PHONY : helpers.i
+
+# target to preprocess a source file
+helpers.cpp.i:
+	$(MAKE) -f CMakeFiles\Factory.dir\build.make CMakeFiles/Factory.dir/helpers.cpp.i
+.PHONY : helpers.cpp.i
+
+helpers.s: helpers.cpp.s
+
+.PHONY : helpers.s
+
+# target to generate assembly for a file
+helpers.cpp.s:
+	$(MAKE) -f CMakeFiles\Factory.dir\build.make CMakeFiles/Factory.dir/helpers.cpp.s
+.PHONY : helpers.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -148,6 +175,33 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) -f CMakeFiles\Factory.dir\build.make CMakeFiles/Factory.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+nodes.obj: nodes.cpp.obj
+
+.PHONY : nodes.obj
+
+# target to build an object file
+nodes.cpp.obj:
+	$(MAKE) -f CMakeFiles\Factory.dir\build.make CMakeFiles/Factory.dir/nodes.cpp.obj
+.PHONY : nodes.cpp.obj
+
+nodes.i: nodes.cpp.i
+
+.PHONY : nodes.i
+
+# target to preprocess a source file
+nodes.cpp.i:
+	$(MAKE) -f CMakeFiles\Factory.dir\build.make CMakeFiles/Factory.dir/nodes.cpp.i
+.PHONY : nodes.cpp.i
+
+nodes.s: nodes.cpp.s
+
+.PHONY : nodes.s
+
+# target to generate assembly for a file
+nodes.cpp.s:
+	$(MAKE) -f CMakeFiles\Factory.dir\build.make CMakeFiles/Factory.dir/nodes.cpp.s
+.PHONY : nodes.cpp.s
 
 package.obj: package.cpp.obj
 
@@ -176,6 +230,33 @@ package.cpp.s:
 	$(MAKE) -f CMakeFiles\Factory.dir\build.make CMakeFiles/Factory.dir/package.cpp.s
 .PHONY : package.cpp.s
 
+storage_types.obj: storage_types.cpp.obj
+
+.PHONY : storage_types.obj
+
+# target to build an object file
+storage_types.cpp.obj:
+	$(MAKE) -f CMakeFiles\Factory.dir\build.make CMakeFiles/Factory.dir/storage_types.cpp.obj
+.PHONY : storage_types.cpp.obj
+
+storage_types.i: storage_types.cpp.i
+
+.PHONY : storage_types.i
+
+# target to preprocess a source file
+storage_types.cpp.i:
+	$(MAKE) -f CMakeFiles\Factory.dir\build.make CMakeFiles/Factory.dir/storage_types.cpp.i
+.PHONY : storage_types.cpp.i
+
+storage_types.s: storage_types.cpp.s
+
+.PHONY : storage_types.s
+
+# target to generate assembly for a file
+storage_types.cpp.s:
+	$(MAKE) -f CMakeFiles\Factory.dir\build.make CMakeFiles/Factory.dir/storage_types.cpp.s
+.PHONY : storage_types.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -185,12 +266,21 @@ help:
 	@echo ... rebuild_cache
 	@echo ... Factory
 	@echo ... edit_cache
+	@echo ... helpers.obj
+	@echo ... helpers.i
+	@echo ... helpers.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... nodes.obj
+	@echo ... nodes.i
+	@echo ... nodes.s
 	@echo ... package.obj
 	@echo ... package.i
 	@echo ... package.s
+	@echo ... storage_types.obj
+	@echo ... storage_types.i
+	@echo ... storage_types.s
 .PHONY : help
 
 

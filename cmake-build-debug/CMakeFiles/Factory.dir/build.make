@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Kacper\Desktop\Nowy folder (6)"
+CMAKE_SOURCE_DIR = C:\Users\Kacper\Desktop\Factory-Filip\Factory-Filip
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Kacper\Desktop\Nowy folder (6)\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\Kacper\Desktop\Factory-Filip\Factory-Filip\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Factory.dir/depend.make
@@ -58,45 +58,90 @@ include CMakeFiles/Factory.dir/flags.make
 
 CMakeFiles/Factory.dir/main.cpp.obj: CMakeFiles/Factory.dir/flags.make
 CMakeFiles/Factory.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Kacper\Desktop\Nowy folder (6)\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Factory.dir/main.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Factory.dir\main.cpp.obj -c "C:\Users\Kacper\Desktop\Nowy folder (6)\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Kacper\Desktop\Factory-Filip\Factory-Filip\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Factory.dir/main.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Factory.dir\main.cpp.obj -c C:\Users\Kacper\Desktop\Factory-Filip\Factory-Filip\main.cpp
 
 CMakeFiles/Factory.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Factory.dir/main.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Kacper\Desktop\Nowy folder (6)\main.cpp" > CMakeFiles\Factory.dir\main.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Kacper\Desktop\Factory-Filip\Factory-Filip\main.cpp > CMakeFiles\Factory.dir\main.cpp.i
 
 CMakeFiles/Factory.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Factory.dir/main.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Kacper\Desktop\Nowy folder (6)\main.cpp" -o CMakeFiles\Factory.dir\main.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Kacper\Desktop\Factory-Filip\Factory-Filip\main.cpp -o CMakeFiles\Factory.dir\main.cpp.s
 
 CMakeFiles/Factory.dir/package.cpp.obj: CMakeFiles/Factory.dir/flags.make
 CMakeFiles/Factory.dir/package.cpp.obj: ../package.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Kacper\Desktop\Nowy folder (6)\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Factory.dir/package.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Factory.dir\package.cpp.obj -c "C:\Users\Kacper\Desktop\Nowy folder (6)\package.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Kacper\Desktop\Factory-Filip\Factory-Filip\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Factory.dir/package.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Factory.dir\package.cpp.obj -c C:\Users\Kacper\Desktop\Factory-Filip\Factory-Filip\package.cpp
 
 CMakeFiles/Factory.dir/package.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Factory.dir/package.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Kacper\Desktop\Nowy folder (6)\package.cpp" > CMakeFiles\Factory.dir\package.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Kacper\Desktop\Factory-Filip\Factory-Filip\package.cpp > CMakeFiles\Factory.dir\package.cpp.i
 
 CMakeFiles/Factory.dir/package.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Factory.dir/package.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Kacper\Desktop\Nowy folder (6)\package.cpp" -o CMakeFiles\Factory.dir\package.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Kacper\Desktop\Factory-Filip\Factory-Filip\package.cpp -o CMakeFiles\Factory.dir\package.cpp.s
+
+CMakeFiles/Factory.dir/storage_types.cpp.obj: CMakeFiles/Factory.dir/flags.make
+CMakeFiles/Factory.dir/storage_types.cpp.obj: ../storage_types.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Kacper\Desktop\Factory-Filip\Factory-Filip\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Factory.dir/storage_types.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Factory.dir\storage_types.cpp.obj -c C:\Users\Kacper\Desktop\Factory-Filip\Factory-Filip\storage_types.cpp
+
+CMakeFiles/Factory.dir/storage_types.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Factory.dir/storage_types.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Kacper\Desktop\Factory-Filip\Factory-Filip\storage_types.cpp > CMakeFiles\Factory.dir\storage_types.cpp.i
+
+CMakeFiles/Factory.dir/storage_types.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Factory.dir/storage_types.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Kacper\Desktop\Factory-Filip\Factory-Filip\storage_types.cpp -o CMakeFiles\Factory.dir\storage_types.cpp.s
+
+CMakeFiles/Factory.dir/nodes.cpp.obj: CMakeFiles/Factory.dir/flags.make
+CMakeFiles/Factory.dir/nodes.cpp.obj: ../nodes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Kacper\Desktop\Factory-Filip\Factory-Filip\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Factory.dir/nodes.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Factory.dir\nodes.cpp.obj -c C:\Users\Kacper\Desktop\Factory-Filip\Factory-Filip\nodes.cpp
+
+CMakeFiles/Factory.dir/nodes.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Factory.dir/nodes.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Kacper\Desktop\Factory-Filip\Factory-Filip\nodes.cpp > CMakeFiles\Factory.dir\nodes.cpp.i
+
+CMakeFiles/Factory.dir/nodes.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Factory.dir/nodes.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Kacper\Desktop\Factory-Filip\Factory-Filip\nodes.cpp -o CMakeFiles\Factory.dir\nodes.cpp.s
+
+CMakeFiles/Factory.dir/helpers.cpp.obj: CMakeFiles/Factory.dir/flags.make
+CMakeFiles/Factory.dir/helpers.cpp.obj: ../helpers.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Kacper\Desktop\Factory-Filip\Factory-Filip\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Factory.dir/helpers.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Factory.dir\helpers.cpp.obj -c C:\Users\Kacper\Desktop\Factory-Filip\Factory-Filip\helpers.cpp
+
+CMakeFiles/Factory.dir/helpers.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Factory.dir/helpers.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Kacper\Desktop\Factory-Filip\Factory-Filip\helpers.cpp > CMakeFiles\Factory.dir\helpers.cpp.i
+
+CMakeFiles/Factory.dir/helpers.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Factory.dir/helpers.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Kacper\Desktop\Factory-Filip\Factory-Filip\helpers.cpp -o CMakeFiles\Factory.dir\helpers.cpp.s
 
 # Object files for target Factory
 Factory_OBJECTS = \
 "CMakeFiles/Factory.dir/main.cpp.obj" \
-"CMakeFiles/Factory.dir/package.cpp.obj"
+"CMakeFiles/Factory.dir/package.cpp.obj" \
+"CMakeFiles/Factory.dir/storage_types.cpp.obj" \
+"CMakeFiles/Factory.dir/nodes.cpp.obj" \
+"CMakeFiles/Factory.dir/helpers.cpp.obj"
 
 # External object files for target Factory
 Factory_EXTERNAL_OBJECTS =
 
 Factory.exe: CMakeFiles/Factory.dir/main.cpp.obj
 Factory.exe: CMakeFiles/Factory.dir/package.cpp.obj
+Factory.exe: CMakeFiles/Factory.dir/storage_types.cpp.obj
+Factory.exe: CMakeFiles/Factory.dir/nodes.cpp.obj
+Factory.exe: CMakeFiles/Factory.dir/helpers.cpp.obj
 Factory.exe: CMakeFiles/Factory.dir/build.make
 Factory.exe: CMakeFiles/Factory.dir/linklibs.rsp
 Factory.exe: CMakeFiles/Factory.dir/objects1.rsp
 Factory.exe: CMakeFiles/Factory.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Kacper\Desktop\Nowy folder (6)\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Factory.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Kacper\Desktop\Factory-Filip\Factory-Filip\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Factory.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Factory.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -109,6 +154,6 @@ CMakeFiles/Factory.dir/clean:
 .PHONY : CMakeFiles/Factory.dir/clean
 
 CMakeFiles/Factory.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Kacper\Desktop\Nowy folder (6)" "C:\Users\Kacper\Desktop\Nowy folder (6)" "C:\Users\Kacper\Desktop\Nowy folder (6)\cmake-build-debug" "C:\Users\Kacper\Desktop\Nowy folder (6)\cmake-build-debug" "C:\Users\Kacper\Desktop\Nowy folder (6)\cmake-build-debug\CMakeFiles\Factory.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Kacper\Desktop\Factory-Filip\Factory-Filip C:\Users\Kacper\Desktop\Factory-Filip\Factory-Filip C:\Users\Kacper\Desktop\Factory-Filip\Factory-Filip\cmake-build-debug C:\Users\Kacper\Desktop\Factory-Filip\Factory-Filip\cmake-build-debug C:\Users\Kacper\Desktop\Factory-Filip\Factory-Filip\cmake-build-debug\CMakeFiles\Factory.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Factory.dir/depend
 

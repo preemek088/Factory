@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Kacper/Desktop/Nowy folder (6)/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/Desktop/Nowy folder (6)/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/Desktop/Nowy folder (6)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/Desktop/Nowy folder (6)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/Desktop/Nowy folder (6)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Kacper/Desktop/Nowy folder (6)/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/Desktop/Nowy folder (6)/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/Desktop/Nowy folder (6)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/Desktop/Nowy folder (6)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/Desktop/Nowy folder (6)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Factory">
-				<Option output="C:/Users/Kacper/Desktop/Nowy folder (6)/cmake-build-debug/Factory.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Kacper/Desktop/Nowy folder (6)/cmake-build-debug"/>
+				<Option output="C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/cmake-build-debug/Factory.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -42,15 +42,15 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/Desktop/Nowy folder (6)/cmake-build-debug/Makefile&quot;  VERBOSE=1 Factory"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/Desktop/Nowy folder (6)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/Desktop/Nowy folder (6)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/Desktop/Nowy folder (6)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/cmake-build-debug/Makefile&quot;  VERBOSE=1 Factory"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Factory/fast">
-				<Option output="C:/Users/Kacper/Desktop/Nowy folder (6)/cmake-build-debug/Factory.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Kacper/Desktop/Nowy folder (6)/cmake-build-debug"/>
+				<Option output="C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/cmake-build-debug/Factory.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -63,33 +63,51 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/Desktop/Nowy folder (6)/cmake-build-debug/Makefile&quot;  VERBOSE=1 Factory/fast"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/Desktop/Nowy folder (6)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/Desktop/Nowy folder (6)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/Desktop/Nowy folder (6)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/cmake-build-debug/Makefile&quot;  VERBOSE=1 Factory/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Kacper/Desktop/Nowy folder (6)/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/Desktop/Nowy folder (6)/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/Desktop/Nowy folder (6)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/Desktop/Nowy folder (6)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/Desktop/Nowy folder (6)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Kacper/Desktop/Nowy folder (6)/main.cpp">
+		<Unit filename="C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/helpers.cpp">
 			<Option target="Factory"/>
 		</Unit>
-		<Unit filename="C:/Users/Kacper/Desktop/Nowy folder (6)/package.cpp">
+		<Unit filename="C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/helpers.hpp">
 			<Option target="Factory"/>
 		</Unit>
-		<Unit filename="C:/Users/Kacper/Desktop/Nowy folder (6)/package.hpp">
+		<Unit filename="C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/main.cpp">
 			<Option target="Factory"/>
 		</Unit>
-		<Unit filename="C:/Users/Kacper/Desktop/Nowy folder (6)/CMakeLists.txt">
+		<Unit filename="C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/nodes.cpp">
+			<Option target="Factory"/>
+		</Unit>
+		<Unit filename="C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/nodes.hpp">
+			<Option target="Factory"/>
+		</Unit>
+		<Unit filename="C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/package.cpp">
+			<Option target="Factory"/>
+		</Unit>
+		<Unit filename="C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/package.hpp">
+			<Option target="Factory"/>
+		</Unit>
+		<Unit filename="C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/storage_types.cpp">
+			<Option target="Factory"/>
+		</Unit>
+		<Unit filename="C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/storage_types.hpp">
+			<Option target="Factory"/>
+		</Unit>
+		<Unit filename="C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -6,15 +6,51 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Kacper/Desktop/Nowy folder (6)/main.cpp
+C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/helpers.hpp
+cstdlib
+-
 iostream
 -
-deque
+random
 -
+ctime
+-
+
+C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/nodes.cpp
+nodes.hpp
+C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/nodes.hpp
+
+C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/nodes.hpp
+memory
+-
+storage_types.hpp
+C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/storage_types.hpp
 vector
+-
+optional
+-
+
+C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/package.hpp
+iostream
+-
+types.hpp
+C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/types.hpp
+deque
 -
 set
 -
-iterator
+stdexcept
 -
+
+C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/storage_types.hpp
+list
+-
+package.hpp
+C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/package.hpp
+
+C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/types.hpp
+functional
+-
+helpers.hpp
+C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/helpers.hpp
 

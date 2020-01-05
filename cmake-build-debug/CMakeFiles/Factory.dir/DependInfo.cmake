@@ -4,8 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Kacper/Desktop/Nowy folder (6)/main.cpp" "C:/Users/Kacper/Desktop/Nowy folder (6)/cmake-build-debug/CMakeFiles/Factory.dir/main.cpp.obj"
-  "C:/Users/Kacper/Desktop/Nowy folder (6)/package.cpp" "C:/Users/Kacper/Desktop/Nowy folder (6)/cmake-build-debug/CMakeFiles/Factory.dir/package.cpp.obj"
+  "C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/helpers.cpp" "C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/cmake-build-debug/CMakeFiles/Factory.dir/helpers.cpp.obj"
+  "C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/main.cpp" "C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/cmake-build-debug/CMakeFiles/Factory.dir/main.cpp.obj"
+  "C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/nodes.cpp" "C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/cmake-build-debug/CMakeFiles/Factory.dir/nodes.cpp.obj"
+  "C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/package.cpp" "C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/cmake-build-debug/CMakeFiles/Factory.dir/package.cpp.obj"
+  "C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/storage_types.cpp" "C:/Users/Kacper/Desktop/Factory-Filip/Factory-Filip/cmake-build-debug/CMakeFiles/Factory.dir/storage_types.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
