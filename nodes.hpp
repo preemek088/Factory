@@ -17,6 +17,7 @@ class IPackageReceiver
 
 class Storehouse
 {
+public:
     Storehouse(ElementID ID, std::unique_ptr<IPackageStockPile> d) {};
 
 };
