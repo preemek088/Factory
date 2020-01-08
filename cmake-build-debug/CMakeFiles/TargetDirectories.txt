@@ -1,3 +1,0 @@
-C:/Users/Filip Olszowski/Desktop/Kody/Informatyka II/Factory/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/Filip Olszowski/Desktop/Kody/Informatyka II/Factory/cmake-build-debug/CMakeFiles/Factory.dir
-C:/Users/Filip Olszowski/Desktop/Kody/Informatyka II/Factory/cmake-build-debug/CMakeFiles/edit_cache.dir
